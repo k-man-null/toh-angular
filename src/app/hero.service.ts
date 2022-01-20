@@ -19,7 +19,7 @@ export class HeroService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
   
-  private heroesURL = 'http://localhost:3000/api/heroes';
+  private heroesURL = 'http://127.0.0.1:3000/api/heroes';
 
   constructor(private http: HttpClient, private messageService: MessageService) { }
 
